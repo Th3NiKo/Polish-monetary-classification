@@ -8,7 +8,7 @@ Creating neural network model which will be able to recognize polish coins on cl
 
 ## Dataset
 
-All images used in this project are created by me and possible to download from [Kaggle platform (250mb)](https://www.kaggle.com/dataset/3d332f1bb83f393ef0d8b60e014ab57ceffac075365231c065543b5562708909)
+All images used in this project are created by me and are possible to download from [Kaggle platform (250mb)](https://www.kaggle.com/dataset/3d332f1bb83f393ef0d8b60e014ab57ceffac075365231c065543b5562708909)
 
 Dataset contains 790 images (with diffrent sizes) of coins classified into 9 folders (classes). 
 
