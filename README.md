@@ -1,5 +1,7 @@
 # Polish monetary classification
 
+![Banner](banner.png?raw=true "Coins banner")
+
 ## Purpose
 
 Creating neural network model which will be able to recognize polish coins on close-up photos.
@@ -26,6 +28,8 @@ Dataset contains 790 images (with diffrent sizes) of coins classified into 9 fol
 
 ## Training
 
+[Notebook](https://github.com/Th3NiKo/Polish-monetary-classification/blob/main/Monetary_model_training.ipynb)
+
 Dataset were trained using transfer learning and finetunning. Xception was used as base model (initialized with imagenet weights).
 In first part of training base model weights were freezed (only output weights were trained).
 In second part whole model was finetunned with lower learning rate. 
@@ -39,3 +43,9 @@ Early stopping method were used to get model which maximize validation dataset a
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Only output parameters trained | 0.9112 | 0.6568 | 0.9867 | 0.8158 | 0.5439 | 0.9538 |
 | Finetuning | 1.0 | 0.9985 | 1.0 | 0.9825 | 0.9737 | 0.9911 | 
+
+## Conclusion
+
+Dataset trained well on xception model. It's possible that model is not generalizing rules well. 
+
+To do: test set and evaluation.
