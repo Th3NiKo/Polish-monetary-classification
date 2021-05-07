@@ -8,7 +8,8 @@ Creating neural network model which will be able to recognize polish coins on cl
 
 ## Dataset
 
-All images used in this project are created by me and possible to download from [Kaggle platform (250mb)](https://www.kaggle.com/dataset/3d332f1bb83f393ef0d8b60e014ab57ceffac075365231c065543b5562708909)
+All images used in this project are created by me and possible to download from [Kaggle platform (Train set 250mb + Test set 20mb)](https://www.kaggle.com/dataset/3d332f1bb83f393ef0d8b60e014ab57ceffac075365231c065543b5562708909) \
+Ready-to-use model: [Google drive (239mb)](https://drive.google.com/file/d/1BhPjHz6q7xsNcCSZjGq9cfh6hbvQECGH/view?usp=sharing)
 
 Dataset contains 790 images (with diffrent sizes) of coins classified into 9 folders (classes). 
 
@@ -44,8 +45,17 @@ Early stopping method were used to get model which maximize validation dataset a
 | Only output parameters trained | 0.9112 | 0.6568 | 0.9867 | 0.8158 | 0.5439 | 0.9538 |
 | Finetuning | 1.0 | 0.9985 | 1.0 | 0.9825 | 0.9737 | 0.9911 | 
 
+
+### Independent test set
+
+Test set included in kaggle dataset.
+
+[Notebook]https://github.com/Th3NiKo/Polish-monetary-classification/blob/main/Evaluation_and_inference.ipynb
+
+| Accuracy | Precision | Recall |
+| -------- | -------- | -------- |
+| 1.0 | 1.0 | 1.0 |
+
 ## Conclusion
 
-Dataset trained well on xception model. It's possible that model is not generalizing rules well. 
-
-To do: test set and evaluation.
+Dataset trained well on xception model. It recognizes most of the close up photos. Tend to struggle with intensive light photos.
