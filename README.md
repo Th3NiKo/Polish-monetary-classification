@@ -50,7 +50,7 @@ Early stopping method were used to get model which maximize validation dataset a
 
 Test set included in kaggle dataset.
 
-[Notebook]https://github.com/Th3NiKo/Polish-monetary-classification/blob/main/Evaluation_and_inference.ipynb
+[Notebook](https://github.com/Th3NiKo/Polish-monetary-classification/blob/main/Evaluation_and_inference.ipynb)
 
 | Accuracy | Precision | Recall |
 | -------- | -------- | -------- |
